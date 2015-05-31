@@ -117,7 +117,6 @@ public partial class MainWindow
 		this.Show ();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler (this.OnDeleteEvent);
 		this.entry3.Activated += new global::System.EventHandler (this.OnEntry3Activated);
-		this.entry3.Changed += new global::System.EventHandler (this.OnEntry3Changed);
 		this.fileRegex.Activated += new global::System.EventHandler (this.OnFileRegexActivated);
 	}
 }

@@ -6,7 +6,7 @@
   </configuration>
   <import>
     <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
-    <widget-library name="../bin/Release/agUI.exe" internal="true" />
+    <widget-library name="../bin/Debug/agUI.exe" internal="true" />
   </import>
   <widget class="Gtk.Window" id="MainWindow" design-size="2732 752">
     <property name="MemberName" />
@@ -39,7 +39,6 @@
             <property name="IsEditable">True</property>
             <property name="InvisibleChar">•</property>
             <signal name="Activated" handler="OnEntry3Activated" />
-            <signal name="Changed" handler="OnEntry3Changed" />
           </widget>
           <packing>
             <property name="X">10</property>
